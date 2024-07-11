@@ -1,0 +1,140 @@
+<style>
+    /* General styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f3f3f3;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+        font-style: italic;
+        margin: 0;
+        padding: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        background-color: #555;
+        color: #fff;
+    }
+
+    .module {
+        margin-bottom: 30px;
+    }
+
+    .module h2 {
+        font-size: 24px;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    form {
+        margin-top: 10px;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+
+    form button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-family: 'Arial', sans-serif;
+    }
+
+    form button:hover {
+        background-color: #555;
+    }
+
+    #chat-box,
+    #group-chat-box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+
+    .username {
+        font-weight: bold;
+        color: #1877f2;
+        cursor: pointer;
+    }
+
+    ul#contact-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul#contact-list li {
+        padding: 10px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        cursor: pointer;
+        border: 1px solid #dddfe2;
+        border-radius: 3px;
+        transition: background-color 0.3s ease;
+    }
+
+    ul#contact-list li:hover {
+        background-color: #f0f2f5;
+    }
+
+    /* Retro Style */
+    .retro-style {
+        /* Retro specific styles here */
+    }
+</style>
